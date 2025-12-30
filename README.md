@@ -1,37 +1,52 @@
 # Algoritma Perhitungan Gaji Karyawan Sederhana
 
-Repositori ini berisi implementasi algoritma sederhana untuk menghitung **gaji bersih karyawan** berdasarkan komponen-komponen seperti gaji pokok, tunjangan, dan potongan.  
-Proyek ini cocok digunakan sebagai referensi pembelajaran untuk memahami logika perhitungan gaji serta cara menerjemahkannya ke dalam kode program. :contentReference[oaicite:1]{index=1}
+Repositori ini berisi implementasi **algoritma sederhana untuk menghitung gaji bersih karyawan** berdasarkan beberapa parameter seperti gaji pokok, tunjangan, dan potongan.  
+Proyek ini cocok sebagai referensi pembelajaran bagi pelajar yang ingin memahami cara menerjemahkan logika bisnis ke dalam kode program Java. :contentReference[oaicite:0]{index=0}
 
-## 📌 Fitur Utama
+---
 
-- 📥 **Input Data**  
-  Mengambil input nama karyawan dan golongan karyawan. 
+## ✨ Fitur Utama
 
-- 🧠 **Logika Perhitungan**  
-  - Menentukan gaji pokok berdasarkan golongan.
-  - Menghitung tunjangan (misalnya tunjangan keluarga/jabatan).
-  - Menghitung potongan (pajak/insuransi).
-  - Menghasilkan gaji bersih berdasarkan rumus:  
-    **Gaji Bersih = (Gaji Pokok + Tunjangan) − Potongan**
+- **Input Data**: Menerima input nama karyawan dan golongan.  
+- **Logika Perhitungan Gaji**:  
+  - Menentukan **gaji pokok** berdasarkan golongan karyawan.  
+  - Menghitung **tunjangan** (misalnya tunjangan keluarga atau jabatan).  
+  - Menghitung **potongan** seperti pajak atau asuransi.  
+  - Menampilkan **slip gaji ringkas** di konsol.  
+- Cocok digunakan sebagai tugas kuliah atau latihan dasar algoritma. :contentReference[oaicite:1]{index=1}
 
-- 🖨️ **Output**  
-  Menampilkan slip gaji sederhana di konsol/terminal. 
+---
 
-## 🧩 Logika Dasar Perhitungan
+## 🧠 Logika Perhitungan
 
-Algoritma ini umumnya menggunakan struktur kendali seperti `if-else` atau `switch-case` untuk menentukan komponen gaji:
+Algoritma secara umum menggunakan struktur kontrol seperti `if-else` atau `switch-case` untuk menentukan komponen gaji:
 
-1. **Gaji Pokok**: ditentukan berdasarkan golongan karyawan.
-2. **Tunjangan**: ditambahkan ke gaji pokok (misalnya persentase dari gaji pokok).  
-3. **Potongan**: potongan berupa pajak/insuransi dihitung dari persentase tertentu.  
-4. **Gaji Bersih**: jumlah akhir setelah penghitungan semua komponen.
+1. **Gaji Pokok**  
+   Ditentukan berdasarkan kategori/golongan karyawan.  
+2. **Tunjangan**  
+   Tambahan persentase dari gaji pokok atau nilai tetap tertentu.  
+3. **Potongan Pajak/Insuransi**  
+   Persentase tertentu yang mengurangi gaji kotor.  
+4. **Gaji Bersih**  
+   Dihitung dengan rumus:  
+   Gaji Bersih = (Gaji Pokok + Tunjangan) - Potongan
+   ``` :contentReference[oaicite:2]{index=2}
 
-## ⚙️ Kebutuhan Sistem
+---
 
-Untuk menjalankan program ini, pastikan Anda memiliki:
+## 🛠️ Persyaratan Sistem
 
-- **Java Development Kit (JDK)** versi 8 atau yang lebih baru (jika implementasi menggunakan Java). 
-- IDE pilihan seperti **IntelliJ IDEA**, **VS Code**, atau **Eclipse** — atau cukup gunakan terminal saja.
+Agar program ini dapat dijalankan dengan baik, pastikan:
 
-**Dibuat untuk memenuhi tugas perkuliahan**
+- Java Development Kit (**JDK**) versi 8 atau lebih tinggi telah terpasang.
+- Memiliki IDE seperti **IntelliJ IDEA**, **Eclipse**, **NetBeans**, atau editor teks seperti **VS Code**.
+- Bila menggunakan terminal, cukup jalankan program lewat terminal setelah kompilasi. :contentReference[oaicite:3]{index=3}
+
+---
+
+## 📌 Tentang Proyek
+
+Proyek ini dibuat untuk memenuhi tugas perkuliahan dan membantu memahami cara kerja algoritma sederhana dalam pemrograman, khususnya dalam menghitung komponen-komponen gaji karyawan. ([GitHub][1])
+
+---
+
