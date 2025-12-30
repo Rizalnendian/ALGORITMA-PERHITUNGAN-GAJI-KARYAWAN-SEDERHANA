@@ -6,32 +6,32 @@ Proyek ini cocok digunakan sebagai referensi pembelajaran untuk memahami logika 
 ## 📌 Fitur Utama
 
 - 📥 **Input Data**  
-  Mengambil input nama karyawan dan golongan karyawan. :contentReference[oaicite:2]{index=2}
+  Mengambil input nama karyawan dan golongan karyawan. 
 
 - 🧠 **Logika Perhitungan**  
-  - Menentukan gaji pokok berdasarkan golongan. :contentReference[oaicite:3]{index=3}  
-  - Menghitung tunjangan (misalnya tunjangan keluarga/jabatan). :contentReference[oaicite:4]{index=4}  
-  - Menghitung potongan (pajak/insuransi). :contentReference[oaicite:5]{index=5}  
+  - Menentukan gaji pokok berdasarkan golongan.
+  - Menghitung tunjangan (misalnya tunjangan keluarga/jabatan).
+  - Menghitung potongan (pajak/insuransi).
   - Menghasilkan gaji bersih berdasarkan rumus:  
-    **Gaji Bersih = (Gaji Pokok + Tunjangan) − Potongan** :contentReference[oaicite:6]{index=6}
+    **Gaji Bersih = (Gaji Pokok + Tunjangan) − Potongan**
 
 - 🖨️ **Output**  
-  Menampilkan slip gaji sederhana di konsol/terminal. :contentReference[oaicite:7]{index=7}
+  Menampilkan slip gaji sederhana di konsol/terminal. 
 
 ## 🧩 Logika Dasar Perhitungan
 
-Algoritma ini umumnya menggunakan struktur kendali seperti `if-else` atau `switch-case` untuk menentukan komponen gaji: :contentReference[oaicite:8]{index=8}
+Algoritma ini umumnya menggunakan struktur kendali seperti `if-else` atau `switch-case` untuk menentukan komponen gaji:
 
-1. **Gaji Pokok**: ditentukan berdasarkan golongan karyawan. :contentReference[oaicite:9]{index=9}  
-2. **Tunjangan**: ditambahkan ke gaji pokok (misalnya persentase dari gaji pokok). :contentReference[oaicite:10]{index=10}  
-3. **Potongan**: potongan berupa pajak/insuransi dihitung dari persentase tertentu. :contentReference[oaicite:11]{index=11}  
-4. **Gaji Bersih**: jumlah akhir setelah penghitungan semua komponen. :contentReference[oaicite:12]{index=12}
+1. **Gaji Pokok**: ditentukan berdasarkan golongan karyawan.
+2. **Tunjangan**: ditambahkan ke gaji pokok (misalnya persentase dari gaji pokok).  
+3. **Potongan**: potongan berupa pajak/insuransi dihitung dari persentase tertentu.  
+4. **Gaji Bersih**: jumlah akhir setelah penghitungan semua komponen.
 
 ## ⚙️ Kebutuhan Sistem
 
 Untuk menjalankan program ini, pastikan Anda memiliki:
 
-- **Java Development Kit (JDK)** versi 8 atau yang lebih baru (jika implementasi menggunakan Java). :contentReference[oaicite:13]{index=13}  
-- IDE pilihan seperti **IntelliJ IDEA**, **VS Code**, atau **Eclipse** — atau cukup gunakan terminal saja. :contentReference[oaicite:14]{index=14}
+- **Java Development Kit (JDK)** versi 8 atau yang lebih baru (jika implementasi menggunakan Java). 
+- IDE pilihan seperti **IntelliJ IDEA**, **VS Code**, atau **Eclipse** — atau cukup gunakan terminal saja.
 
 **Dibuat untuk memenuhi tugas perkuliahan**
