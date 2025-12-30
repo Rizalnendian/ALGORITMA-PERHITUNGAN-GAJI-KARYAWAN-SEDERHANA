@@ -30,8 +30,7 @@ Algoritma secara umum menggunakan struktur kontrol seperti `if-else` atau `switc
 4. **Gaji Bersih**  
    Dihitung dengan rumus:  
    Gaji Bersih = (Gaji Pokok + Tunjangan) - Potongan
-   ``` :contentReference[oaicite:2]{index=2}
-
+   
 ---
 
 ## 🛠️ Persyaratan Sistem
