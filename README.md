@@ -1,7 +1,7 @@
 # Algoritma Perhitungan Gaji Karyawan Sederhana
 
 Repositori ini berisi implementasi **algoritma sederhana untuk menghitung gaji bersih karyawan** berdasarkan beberapa parameter seperti gaji pokok, tunjangan, dan potongan.  
-Proyek ini cocok sebagai referensi pembelajaran bagi pelajar yang ingin memahami cara menerjemahkan logika bisnis ke dalam kode program Java. :contentReference[oaicite:0]{index=0}
+Proyek ini cocok sebagai referensi pembelajaran bagi pelajar yang ingin memahami cara menerjemahkan logika bisnis ke dalam kode program Java.
 
 ---
 
@@ -13,7 +13,7 @@ Proyek ini cocok sebagai referensi pembelajaran bagi pelajar yang ingin memahami
   - Menghitung **tunjangan** (misalnya tunjangan keluarga atau jabatan).  
   - Menghitung **potongan** seperti pajak atau asuransi.  
   - Menampilkan **slip gaji ringkas** di konsol.  
-- Cocok digunakan sebagai tugas kuliah atau latihan dasar algoritma. :contentReference[oaicite:1]{index=1}
+- Cocok digunakan sebagai tugas kuliah atau latihan dasar algoritma.
 
 ---
 
@@ -33,14 +33,27 @@ Algoritma secara umum menggunakan struktur kontrol seperti `if-else` atau `switc
    
 ---
 
-## 🛠️ Persyaratan Sistem
+## 📥 Prasyarat
 
-Agar program ini dapat dijalankan dengan baik, pastikan:
+Agar dapat menjalankan program ini, pastikan Anda telah:
 
-- Java Development Kit (**JDK**) versi 8 atau lebih tinggi telah terpasang.
-- Memiliki IDE seperti **IntelliJ IDEA**, **Eclipse**, **NetBeans**, atau editor teks seperti **VS Code**.
-- Bila menggunakan terminal, cukup jalankan program lewat terminal setelah kompilasi. :contentReference[oaicite:3]{index=3}
+- 📦 **Java Development Kit (JDK)** terinstal (disarankan versi 8 ke atas)
+- 🛠 Editor atau IDE seperti:
+  - IntelliJ IDEA
+  - Eclipse
+  - NetBeans
+  - VSCode (dengan extension Java)
+- 📁 Folder kode program yang lengkap
 
+---
+## 📚 Tujuan Pembelajaran
+
+Proyek ini bertujuan untuk membantu:
+
+* Mahasiswa atau pemula memahami dasar konsep pemrograman;
+* Latihan penggunaan `if-else`, atau '';
+* Praktik membaca input dari pengguna (mis. `switch-case`);
+* Logika perhitungan dan pengeluaran output dalam program berbasis teks.
 ---
 
 ## 📌 Tentang Proyek
