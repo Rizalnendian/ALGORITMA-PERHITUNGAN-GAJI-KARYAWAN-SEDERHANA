@@ -51,8 +51,8 @@ Agar dapat menjalankan program ini, pastikan Anda telah:
 Proyek ini bertujuan untuk membantu:
 
 * Mahasiswa atau pemula memahami dasar konsep pemrograman;
-* Latihan penggunaan `if-else`, atau '';
-* Praktik membaca input dari pengguna (mis. `switch-case`);
+* Latihan penggunaan `if-else`, atau 'switch-case';
+* Praktik membaca input dari pengguna (mis. `scaner`);
 * Logika perhitungan dan pengeluaran output dalam program berbasis teks.
 ---
 
