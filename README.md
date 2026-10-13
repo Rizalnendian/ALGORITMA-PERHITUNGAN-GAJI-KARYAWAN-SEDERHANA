@@ -1,59 +1,128 @@
-# Algoritma Perhitungan Gaji Karyawan Sederhana
+# Simple Employee Salary Calculation Algorithm 👨‍💼
 
-Repositori ini berisi implementasi **algoritma sederhana untuk menghitung gaji bersih karyawan** berdasarkan beberapa parameter seperti gaji pokok, tunjangan, dan potongan.  
-Proyek ini cocok sebagai referensi pembelajaran bagi pelajar yang ingin memahami cara menerjemahkan logika bisnis ke dalam kode program Java.
+This repository contains a simple algorithm implementation for calculating an employee's net salary based on basic parameters like base salary, allowances, and deductions. This project is suitable as a learning reference for students who want to understand how to translate business logic into Java code.
+
+--- 
+
+## ✨ Key Features 
+
+*   **Data Input**: Accepts employee name and golongan (group/level).
+*   **Salary Calculation Logic**: 
+    *   Determines **base salary** based on employee golongan.
+    *   Calculates **allowances** (e.g., family or position allowances).
+    *   Calculates **deductions** like taxes or insurance.
+    *   Displays a concise salary slip on the console.
+*   Suitable for college assignments or basic algorithm practice. 
+
+--- 
+
+## 🧠 Calculation Logic 
+
+The algorithm generally uses control structures like `if-else` or `switch-case` to determine salary components:
+
+1.  **Base Salary** 
+    Determined based on the employee's category/golongan.
+2.  **Allowances** 
+    A percentage of the base salary or a specific fixed amount.
+3.  **Tax/Insurance Deductions** 
+    A certain percentage that reduces the gross salary.
+4.  **Net Salary** 
+    Calculated with the formula: 
+    Net Salary = (Base Salary + Allowances) - Deductions
+
+--- 
+
+## 📥 Prerequisites 
+
+To run this program, ensure you have:
+
+*   📦 **Java Development Kit (JDK)** installed (version 8 or higher recommended)
+*   🛠 An editor or IDE such as:
+    *   IntelliJ IDEA
+    *   Eclipse
+    *   NetBeans
+    *   VSCode (with Java extension)
+*   📁 The complete program code folder
+
+--- 
+
+## 📚 Learning Objectives 
+
+This project aims to help:
+
+*   Students or beginners understand basic programming concepts;
+*   Practice using `if-else` or `switch-case`;
+*   Practice reading input from the user (e.g., `Scanner`);
+*   Develop logic for calculations and output in text-based programs.
+
+--- 
+
+## 🚀 Getting Started 
+
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/Rizalnendian/ALGORITMA-PERHITUNGAN-GAJI-KARYAWAN-SEDERHANA.git
+    cd ALGORITMA-PERHITUNGAN-GAJI-KARYAWAN-SEDERHANA
+    ```
+
+2.  **Compile the Java Code**:
+    Navigate to the `src` directory and compile the `Main.java` file using your JDK.
+    ```bash
+    cd src
+    javac Main.java
+    ```
+
+3.  **Run the Program**:
+    After successful compilation, execute the program.
+    ```bash
+    java Main
+    ```
+    The program will prompt you to enter the employee's golongan (A, B, or C) and the number of overtime hours.
+
+--- 
+
+## 🛠 Tech Stack 
+
+*   **Language**: Java
+
+--- 
+
+## 📂 Project Structure 
+
+```
+ALGORITMA-PERHITUNGAN-GAJI-KARYAWAN-SEDERHANA/
+└── src/
+    └── Main.java
+```
+
+--- 
+
+## 🤝 Contributing 
+
+Contributions are welcome! Please feel free to submit a Pull Request or open an issue.
+
+--- 
+
+## ⚖️ License 
+
+This project does not specify a license. Please refer to the repository for details.
+
+--- 
+
+## 🔗 Important Links 
+
+*   **Repository**: [ALGORITMA-PERHITUNGAN-GAJI-KARYAWAN-SEDERHANA](https://github.com/Rizalnendian/ALGORITMA-PERHITUNGAN-GAJI-KARYAWAN-SEDERHANA)
+
+--- 
+
+## © Footer 
+
+© **ALGORITMA-PERHITUNGAN-GAJI-KARYAWAN-SEDERHANA**
+
+*   URL: [https://github.com/Rizalnendian/ALGORITMA-PERHITUNGAN-GAJI-KARYAWAN-SEDERHANA](https://github.com/Rizalnendian/ALGORITMA-PERHITUNGAN-GAJI-KARYAWAN-SEDERHANA)
+*   Author: Rizalnendian
+*   Feel free to ⭐ star, 🍴 fork, and raise 📈 issues!
+
 
 ---
-
-## ✨ Fitur Utama
-
-- **Input Data**: Menerima input nama karyawan dan golongan.  
-- **Logika Perhitungan Gaji**:  
-  - Menentukan **gaji pokok** berdasarkan golongan karyawan.  
-  - Menghitung **tunjangan** (misalnya tunjangan keluarga atau jabatan).  
-  - Menghitung **potongan** seperti pajak atau asuransi.  
-  - Menampilkan **slip gaji ringkas** di konsol.  
-- Cocok digunakan sebagai tugas kuliah atau latihan dasar algoritma.
-
----
-
-## 🧠 Logika Perhitungan
-
-Algoritma secara umum menggunakan struktur kontrol seperti `if-else` atau `switch-case` untuk menentukan komponen gaji:
-
-1. **Gaji Pokok**  
-   Ditentukan berdasarkan kategori/golongan karyawan.  
-2. **Tunjangan**  
-   Tambahan persentase dari gaji pokok atau nilai tetap tertentu.  
-3. **Potongan Pajak/Insuransi**  
-   Persentase tertentu yang mengurangi gaji kotor.  
-4. **Gaji Bersih**  
-   Dihitung dengan rumus:  
-   Gaji Bersih = (Gaji Pokok + Tunjangan) - Potongan
-   
----
-
-## 📥 Prasyarat
-
-Agar dapat menjalankan program ini, pastikan Anda telah:
-
-- 📦 **Java Development Kit (JDK)** terinstal (disarankan versi 8 ke atas)
-- 🛠 Editor atau IDE seperti:
-  - IntelliJ IDEA
-  - Eclipse
-  - NetBeans
-  - VSCode (dengan extension Java)
-- 📁 Folder kode program yang lengkap
-
----
-## 📚 Tujuan Pembelajaran
-
-Proyek ini bertujuan untuk membantu:
-
-* Mahasiswa atau pemula memahami dasar konsep pemrograman;
-* Latihan penggunaan `if-else`, atau 'switch-case';
-* Praktik membaca input dari pengguna (mis. `Scaner`);
-* Logika perhitungan dan pengeluaran output dalam program berbasis teks.
----
-
-
+**<p align="center">Generated by [ReadmeCodeGen](https://www.readmecodegen.com/)</p>**
